@@ -1,0 +1,319 @@
+
+<!-- Codigo HTMl:
+Título de la página: ¿Qué es el HTML?
+By:Daniel Ruiz Guinea.
+Proyecto de informática 2 evaluación 2 de bachiller*-->
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+  
+    <!--Estilos css-->
+      <link href="estilos.css" type="text/css" rel="stylesheet">
+	
+	<!--Caracteres Español-->
+	  <meta charset="utf-8">
+	
+	<!--Tipos de letras-->
+	  <link href="//fonts.googleapis.com/css?family=Lobster:400" rel="stylesheet" type="text/css">
+	  <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+	  <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+	  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	
+	<!--Boton subir para arriba-->
+	  <link rel="stylesheet" href ="fontello.css">
+	  <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script>
+	  <script src="script.js"></script>
+	
+    <title>
+	  El HTML
+    </title>	
+</head>
+<body>
+
+	<div "cursor: hand">
+		<div class="slider"><!--slider-->
+			<ul>
+				<li><img src="2B.png" alt="" > </li>
+				<li><img src="3B.png" alt=""> </li>
+				<li><img src="5B.png" alt=""> </li>	
+				<li><img src="1B.png" alt=""> </li>
+		</div>
+	
+  <!--Menu-->
+    <div class="1">
+      <nav class="dropdownmenu">
+  	    <ul>
+          <li><a href="#1">ELEMENTOS</a></li>
+    	  <li><a href="#3">EDITORES DE TEXTO</a></li>
+    	  <li><a href="#4">VIDEO</a></li>
+    	  <li><a href="#5">CREACION HTML</a></li>
+		  <li><a href="#6">ETIQUETAS Y ATRIBUTOS</a></li>
+	    </ul>
+	  </nav>
+    </div>
+	
+  <!--Primer parrafo, ¿Qué es el HTML?-->	
+    <div>
+	  <h2>
+	    ¿Qué es el HTML?
+	  </h2>
+	  <div><!--Fotografia HTML-->
+	    <img 
+		  style="float:right";
+	   	  src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/230px-HTML5_logo_and_wordmark.svg.png"
+				height="100";
+				size="50";
+				title="HTML5";/>
+		<p>
+		  HTML es un lenguaje de marcado que se utiliza para el desarrollo de paginas de Internet.
+		  Se trata de la siglas que corresponden a HyperText Markup Language, es decir,
+		  Lenguaje de Marcas de Hipertexto.
+		</p>
+	  </div>	
+	</div>
+	</br>
+		
+  <!--Primer parrafo, elementos-->	
+    <div><a name="1"></a>
+	  <h2>
+	    Elementos
+	  </h2>
+	  <p>
+	    Los elementos son la estructura básica de HTML. Los elementos tienen dos propiedades básicas:
+		atributos y contenido. Cada atributo y contenido tiene ciertas restricciones para que se
+		considere válido al documento HTML. Un elemento generalmente tiene una etiqueta de inicio
+		(por ejemplo, <nombre-de-elemento>) y una etiqueta de cierre (por ejemplo, </nombre-de-elemento>).
+		Los atributos del elemento están contenidos en la etiqueta de inicio y el contenido está ubicado entre
+		las dos etiquetas (por ejemplo, <nombre-de-elemento atributo="valor">Contenido</nombre-de-elemento>).
+		Algunos elementos, tales como ,
+		no tienen contenido ni llevan una etiqueta de cierre. Debajo se listan varios 
+		tipos de elementos de marcado usados en HTML.
+	  </p>
+	</div>
+	</br>
+	</br>
+		
+  <!--Parrafo editores de texto-->
+    <div><a name="3"></a>
+	  <h2>
+	    Editores de texto.         
+	  </h2>
+	  <p>
+	    Para el desarrollo web los programadores se auxilian de un editor de texto
+		Estos normalmente están hechos con el fin de facilitar la programación. 
+		Existen actualmente muchos, como son estos: Notepad++, Adobe Dreamweaver, 
+		Sublime text, entre otros.
+	  </p>
+	  <div>
+	    <a href ="https://notepad-plus-plus.org/" target="-blank">
+		  <div class="img2">
+		    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0f/Notepad%2B%2B_Logo.png"; 
+		    title="Notepad++";>
+          </div>		   
+		</a>  
+	  </div>
+	</div>
+	
+  <!--Video-->
+    <div><a name="4"></a>
+	  <h2>
+	    Explicación rapida del HTML con video
+	  </h2>
+	  <div align="center">
+	    <iframe
+		  width="600"
+		  height="380"
+		  src="https://www.youtube.com/embed/av_PL4_jz1I" 
+		  frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"		allowfullscreen>
+		</iframe>
+	  </div>
+	</div>
+	</br>
+	
+  <!--Mapa de Google maps-->
+    <div><a name="5"></a>
+	  <h2>
+	    Lugar de creacion del HTML
+	  </h2>
+	  <div  align="center">
+        <iframe 
+		  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22078.04473735007!2d6.0305340897217645!3d46.235204898286604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c62fcec737b11%3A0x81bef3ae7a885e31!2sOrganizaci%C3%B3n%20Europea%20para%20la%20Investigaci%C3%B3n%20Nuclear!5e0!3m2!1ses!2ses!4v1575290695601!5m2!1ses!2ses" 
+		  width="550" 
+		  height="250" 
+		  frameborder="0" 
+	      style="border:0;" allowfullscreen="">
+		</iframe>
+	  </div>
+	  <p>
+	    Los inicios de HTML se deben a Tim Berners-Lee cuando trabajaba en el CERN (Centro Europeo de Investigación Nuclear). 
+		Y es que estando como trabajador del CERN se encontró con la problemática 
+		de poder facilitar el acceso a la información
+		con la que trabajaban desde cualquier ordenador del centro o de otras instituciones que
+		trabajaban con ellos.
+		  </br>
+		Buscaban una forma sencilla y estándar de acceder a toda la información.
+		Es en ese momento cuando nace el protocolo HTTP (hypertext transfer protocol)
+		y las páginas HTML.
+		  </br>
+		Además ideó que las páginas estarían unidas entre sí, estarían enlazadas.
+		Era el concepto de hipertexto.
+	  </p>
+	</div>
+	
+  <!--Boton con link-->
+    <div>
+	  <p> 
+	    Para mas información: <a href="https://codigofacilito.com/articulos/que-es-html"target="-blank"><font color="white"> 
+		<div class=button1>PINCHE AQUI </div></a>
+	  </p>
+	</div>
+	
+	
+	<div> <a name="6"></a><!--Tabla-->
+		<h2>
+			Etiquetas y atributos
+		</h2>
+		<Table id="Etiquetas y atributos" >
+			<thead>
+				<th><!--Columna 1-->
+					Etiqueta
+				</th>
+				<th><!--Columna 2-->
+					Función 
+				</th>
+			</thead>
+			<tr><!--Fila 1-->
+				<td>
+					&lt!DOCTYPE html&gt	
+				</td>
+				<td>
+					Declaración de tipo de documento, es informativo
+				</td>
+			</tr>
+			<tr><!--Fila 2-->
+				<td>
+					&lt html&gl &lt html > 
+				</td>
+				<td>
+					Inicio y fin del código HTML 
+				</td>
+			</tr>
+			<tr><!--Fila 3-->
+				<td>
+					&lt head> &lt /head > 
+				</td>
+				<td>
+					Inicio y fin del código HTML 
+				</td>
+			</tr>
+			<tr><!--Fila 4-->
+				<td>
+					&lt title > &lt /title > 
+				</td>
+				<td>
+					Nombre del documento 
+				</td>
+			</tr>
+			<tr><!--Fila 5-->
+				<td>
+					&lt body > &lt /body > 
+				</td>
+				<td>
+					Lo que quiero mostrar en el navegador 
+				uu</td>
+			</tr>
+			<tr><!--Fila 6-->
+				<td>
+					&lt body > &lt /body >
+				</td>
+				<td>
+					Párrafo
+				</td>
+			</tr>
+			<tr><!--Fila 7-->
+				<td>
+					&lt Br/> 
+				</td>
+				<td>
+					Salto de linea
+				</td>
+			</tr>
+			<tr><!--Fila 8-->
+				<td>
+					&lt div > &lt /div >
+				</td>
+				<td>
+					Se emplea para definir un bloque de contenido o sección de la página, para poder aplicarle</br> 
+					diferentes estilos e incluso para realizar operaciones sobre ese bloque específico.
+				</td> 
+			</tr>
+			<tr><!--Fila 9-->
+				<td>
+					&lt h1> &lt /h1> </br>
+					&lt h2> &lt /h2> </br>
+					&lt h3> &lt /h3> </br>
+					...</br>
+				</td>
+				<td>
+					Titulo</br>
+					Subtítulo</br>
+					Sub-subtítulo</br>
+				</td>
+			</tr>
+			<tr><!--Fila  10-->
+				<td>
+					&lt --Texto-->
+				</td>
+				<td>
+					Comentario.Para explicar parte del código, o para hacer pruebas con parte del código sin</br> 
+					tener que borrarlo.
+				</td>
+			</tr>
+			<tr><!--Fila 11-->
+				<td>
+					&ls a href="" target="_blank" alt=""</br>
+					title=""> aquí &ls/a>
+				</td>
+				<td>
+					Hipervínculo a una página externa, abriendo una pestaña nueva en mi navegador (target="_blank")</br>
+					que aparecerá una descripción de ella si ha habido problemas y no se ha cargado la foto (alt="") y </br>
+					que aparecerá una descripción cuando se coloque el cursos encima del enlace (title="") </br>
+				</td>
+			</tr>
+			<tr><!--Fila 12-->
+				<td>
+					&lt img src="" height="" size=""> 
+				</td>
+				<td>
+					Imagen
+				</td>
+			</tr>
+			<tr><!--Fila  13-->
+				<td>
+					&lt video src="./movie.mp4" height="" width="" controls> Nombre del video&lt/video> 
+				</td>
+				<td>
+					Para insertar un video de nombre movie con extensión .mp4 que esté en la misma carpeta que mi página web.</br>
+					Redimensionarlo y además añadirle controles básicos (stop/ play / pause …)
+				</td>
+			</tr>
+			</div>
+		</table>
+	</div>
+		</br>
+		</br>
+		<div class="up">
+			<span class="icon icon-up-open"></span>
+		</div>
+	<footer>
+    	<a class="footer1"> Copyright © 2020 | Daniel Ruiz | Colegio Sanviator Ikastetxea</a>
+	</footer>
+		</div>
+		</div>
+		</div>
+		</div>
+		</div>
+		</div>
+</body>
+</html>

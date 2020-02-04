@@ -1,0 +1,218 @@
+
+/* Estilos CSS:
+Título de la página: ¿Qué es el HTML?.
+By:Daniel Ruiz Guinea.
+Proyecto de informática 2 evaluación 2 de bachiller*/
+
+  /*Color del cuerpo*/
+  body{
+    background-color: #F7f7f7;
+  }
+  
+  /*slider*/
+    .slider{
+      width:95%;
+	  margin:auto;
+	  overflow:hidden;
+    }		
+    .slider ul{
+	  display: flex;
+	  padding:0;
+	  width: 400%;
+	  animation: cambio 20s infinite alternate linear;
+	}
+	.slider li{
+	  list-style: none;
+	  width:100%;
+	}
+	.slider img{
+	  width:100%;
+	}		
+	@keyframes cambio {
+		
+	  0% {margin-left: 0;}
+	  0% {margin-left: 0;}
+	  20% {margin-left: 0;}
+	
+	  25% {margin-left: -100%;}
+	  45% {margin-left: -100%;}
+	
+	  50% {margin-left: -200%;}
+	  70% {margin-left: -200%;}
+	
+	  75% {margin-left: -300%;}
+	  100% {margin-left: -300%}
+	}
+	
+  /* Titulos*/
+	h2{
+	  color:black;
+	  font-family:Rockwell Extra Bold;
+	  padding-left:30px;
+	  padding-bottom:10px;
+	  margin:80px;
+	  font-size:40px;
+	  border-bottom: 3px solid #FFA500;
+	  border-bottom: opacity 50%;
+	}
+	
+  /*Parrafos*/
+	p{
+	  padding-left:80px;
+	  font-size:22px;
+	  font-family:arial;
+		
+	}
+	
+  /*Estilos de imagenes*/
+	img{
+	  padding-right:200px;
+	  margin-bottom:0px;
+	  margin-left:0px;
+	  background-color:#F7f7f7;
+	}
+	.img2{
+	  float:right;
+	  width:50
+	}
+	
+  /*Estilo de tabla*/
+	table{
+	  width:85%;
+	  background-color:white;
+	  border-collapse:collapse;
+	  text-align:left;
+	  margin:90px;
+	}
+	th,td{
+	  color:black;
+	  font-size:22px;
+	  font-family:arial;
+	  padding:20px;
+	}
+	thead{
+	  background-color:#FFA500;
+	  color:white;
+	  border-bottom:solid 5px black;
+	}
+	tr:nth-child(even){ 
+	  background-color:#ddd:
+	}
+	tr:hover td{
+	  background-color:DarkOrange;
+	  color:white;
+	}
+	
+  /*Boton*/
+	.button1{
+	  padding: 12px 28px;
+	  background-color: #FFA500; /* Green */
+	  font-color: white;
+	  margin-left:80px;
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+  	  box-shadow: 0px 4px 3px rgba(0,0,0,.5)
+	}
+	.button1:hover {
+      background-color: Black; /* Green */
+      color: white;
+	  box-shadow: 0px 4px 3px rgba(0,0,0,.5)
+	}
+
+  /*Boton ir para arriba*/
+	.up{
+	  position:fixed;
+	  bottom:15px;
+      right:15px;
+	  width:50px;
+	  height:50px;
+	  border-radius:50%;
+	  background:#FFA500;
+	  display:flex;
+	  justify-content:center;
+	  align-items:center;
+	  color:white;
+	  cursor:pointer;
+	}
+	
+  /*Footer*/
+    footer {
+      margin-top: 20px;
+      texdt-align: left;
+    }
+    .footer1{
+	color:black;
+    }
+	
+  /*Estilos del menu*/
+	.dropdownmenu{
+	  margin-top:5px;
+	  margin-bottom:2px;
+	  background-color:#FFA500;
+	  width:100%;
+	}
+	.dropdownmenu ul, .dropdownmenu li {
+	  margin-top: 0px;
+	  margin-bottom:0px;
+	  padding: 0;
+	  overflow:hidden;
+	  box-shadow: 0px 4px 3px rgba(0,0,0,.5)
+	}
+	.drpdownmenu ul {
+	  background: gray;
+	  list-style: none;
+	  width: 100%;
+	  border:1px black;
+	}
+	.dropdownmenu li {
+	  float: left;
+	  position: relative;
+	  width:auto;
+	}
+	.dropdownmenu a {
+	  background: #FFA500;
+	  color: #ffffff;
+	  display: block;
+	  font: bold 	12px/20px sans-serif;
+	  padding: 10px 25px;
+	  text-align: center;
+	  text-decoration: none;
+	  -webkit-transition: all .25s ease;
+	  -moz-transition: all .25s ease;
+	  -ms-transition: all .25s ease;
+	  -o-transition: all .25s ease;
+	  transition: all .25s ease;
+	}
+	.dropdownmenu li:hover a {
+	  background: black;
+	}
+	#submenu {
+	  left: 0;
+	  opacity: 0;
+	  position: absolute;
+	  top: 35px;
+	  visibility: hidden;
+	  z-index: 1;
+	}
+	li:hover ul#submenu {
+	  opacity: 1;
+	  top: 40px;
+	  visibility: visible;
+	}
+	#submenu li {
+	  float: none;
+	  width: 100%;
+	}
+	#submenu a:hover {
+	  background: #FFA500;
+	}
+	#submenu a {
+	  background-color:#000000;
+	}
+
+	
